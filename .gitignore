@@ -1,0 +1,61 @@
+/AugMultithreadAsyncParallelEducation.sln
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild[Ll]og.*
+
+# Visual Studio cache/options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.xml
+TestResult.xml
+nunit-*.xml
+
+# .NET files
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb
+*.svclog
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# Publish output
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
