@@ -4,3 +4,51 @@ GET {{WebApplication1_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{WebApplication1_HostAddress}}/api/products/batch-insert-with-channel
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "name": "Laptop"
+  },
+  {
+    "id": 2,
+    "name": "Mouse"
+  },
+  {
+    "id": 3,
+    "name": "Keyboard"
+  },
+  {
+    "id": 4,
+    "name": "Monitor"
+  },
+  {
+    "id": 5,
+    "name": "Headset"
+  },
+  {
+    "id": 6,
+    "name": "Webcam"
+  },
+  {
+    "id": 7,
+    "name": "USB Hub"
+  },
+  {
+    "id": 8,
+    "name": "SSD"
+  },
+  {
+    "id": 9,
+    "name": "Power Bank"
+  },
+  {
+    "id": 10,
+    "name": "Tablet"
+  }
+]
+
+###
